@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.div1{
+    background: url("../images/bg-pattern-desktop.svg");
+    height: 801px;
+}
+.div3{
+    padding-left: 200px;
+}
+.div2{
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header{
+    padding-top: 80px;
+}
+h1 {
+    letter-spacing: 0.3em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 7rem 0 2rem;
+    line-height: 1.2;
+    color:black;
+    color: hsl(0, 6%, 24%);
+  }
+span{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300px;
+}
+
+.txt{
+    color: hsl(0, 36%, 70%);
+    width: 500px;
+    line-height: 25px;
+}
+.contact-details{
+    border: 1px solid hsl(0, 36%, 70%);
+    padding: 20px;
+    width: 40%;
+    color: hsl(0, 36%, 70%);
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+    opacity: 1;
+  }
+
+.submit{
+    padding: 17px;
+    border: none;
+    width: 100px;
+    position: relative;
+    top: 4px;
+    right: 85px;
+    border-radius: 30px;
+    background-color: hsl(0, 93%, 68%);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .6);
+    box-shadow: hsl(0, 6%, 24%);
+}
+.submit:hover{
+    background-color: hsl(0, 75%, 76%);
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 375px){
+    .div1{
+        position: relative;
+        height: 450px;
+        top: 360px;
+        padding-top: 30px;
+    }
+    .div2{
+        position: absolute;
+        width: 370px;
+        top: 100px;
+    }
+    h1{
+        position: absolute;
+        top: -70px;
+        left: 70px;
+        text-align: center;
+    }
+
+    .txt{
+        position: absolute;
+        top: 185px;
+        left: 60px;
+        width: 300px;
+    }
+
+    .contact-details{
+        position: absolute;
+        top: 350px;
+        width: 250px;
+        left: 15px;
+    }
+    .submit{
+        position: absolute;
+        top: 350px;
+        left: 250px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+    header{
+        position: absolute;
+        top: -410px;
+        left: 40px;
+    }
+
+    footer{
+        position: relative;
+        top: 350px;
+    }
+}
